@@ -7,4 +7,6 @@ jobs:
     steps:
       - run: echo "bonjour je t'appelle de la pipeline"
       - run: ls -la
+      - name: Check out repository code
+        uses: actions/checkout@v4
  
